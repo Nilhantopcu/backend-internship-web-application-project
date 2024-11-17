@@ -71,3 +71,64 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+Here is a draft for the README files for both your backend and frontend GitHub repositories:
+
+---
+
+# Online Internship Platform - Backend
+
+This repository contains the backend implementation for the Online Internship Platform, developed using NestJS and TypeORM. The backend handles the core functionality, including authentication, document management, and communication with the PostgreSQL database.
+
+## Project Overview
+
+The Online Internship Platform streamlines the internship process, providing students, coordinators, and departments with tools for efficient and transparent management of internships. The system offers features like document uploads, company evaluations, and report submissions.
+
+## Technologies Used
+
+- **NestJS**: Framework for building efficient, scalable Node.js server-side applications.
+- **TypeORM**: ORM for database operations.
+- **PostgreSQL**: Relational database management system.
+- **JWT**: For user authentication and authorization.
+- **Multer**: For handling file uploads.
+- **Passport**: For authentication strategies.
+
+## Installation and Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Nilhantopcu/backend-internship-web-application-project.git
+   cd backend-internship-web-application-project
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up the environment variables**:
+   Create a `.env` file in the root directory with your configuration settings (e.g., database connection, JWT secrets).
+
+4. **Run the development server:**
+   ```bash
+   npm run start:dev
+   ```
+
+5. **Database setup:**
+   Ensure PostgreSQL is running and configured in your `.env` file. TypeORM will automatically handle database creation and migrations.
+
+## API Endpoints
+
+The API provides endpoints for:
+- User registration and authentication
+- Internship applications and document management
+- Report submissions and evaluations
+- Company information management
+
+## Running Tests
+
+You can run tests using:
+```bash
+npm run test
+```
